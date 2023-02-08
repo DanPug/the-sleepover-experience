@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+/*---------------------------------------------- Page Attributes -- */
+
+.themes-bg {
+    margin-top: 125px;
+    margin-bottom: 75px;
+    background-color: rgb(151, 229, 243);
+    font-family: 'Roboto Slab', serif;
+    color: grey;
+}  
+
+.gallery-bg {
+    margin-top: 125px;
+    margin-bottom: 75px;
+    background-color: rgb(247, 175, 149);
+    font-family: 'Roboto Slab', serif;
+    color: grey;
+}
+
+.contact-bg {
+    margin-top: 125px;
+    margin-bottom: 75px;
+    background-color: rgb(224, 149, 247);
+    font-family: 'Roboto Slab', serif;
+    color: grey;
+}
+
+/*---------------------------------------------- Nav Bar -- */
+
+.bg-col-navbar-themes {
+    background: linear-gradient(to right, #ffffff, #dcdcdc);
+    --bs-navbar-hover-color: rgb(151, 229, 243);
+}
+
+.bg-col-navbar-gallery {
+    background: linear-gradient(to right, #ffffff, #dcdcdc);
+    --bs-navbar-hover-color: rgb(247, 175, 149);
+}
+
+.bg-col-navbar-contact {
+    background: linear-gradient(to right, #ffffff, #dcdcdc);
+    --bs-navbar-hover-color: rgb(224, 149, 247);
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 24px;
+    color: grey;
+    text-align: center;
+    --bs-navbar-brand-hover-color: hsl(129, 74%, 82%);
+    padding-left: 15px;
+}
+
+.nav-link {
+    list-style: none;
+    color: black;
+    font-weight: 400;
+    opacity: 80%;
+    --bs-navbar-nav-link-padding-x: 30px;
+}
+
+.active-nl a {
+    opacity: 100%;
+}
+
+.themes-and-pricing-icon {
+    color:rgb(151, 229, 243);
+    font-size: 30px;
+}
+
+.gallery-icon {
+    color:rgb(247, 175, 149);
+    font-size: 30px;
+}
+
+.contact-us-icon {
+    color:rgb(224, 149, 247);
+    font-size: 30px;
+}
+
+/*---------------------------------------------- Section -- */
+
+
+
+/*---------------------------------------------- Footer -- */
+
+.footer-details {
+    background: linear-gradient(to right, #fff, #dcdcdc);
+    color: grey;
+    font-size: 15px;
+}
+
+.social-media-icons {
+    font-size: 15px;
+    padding: 0 15px 0 25px;  
+}
+
+.facebook {
+    color:blue;
+}
+
+.instagram {
+    color: pink;
+}
+
+.whatsapp {
+    color: green;
+}
+
+#whatsapp {
+    font-size: 15px;  
+  }
+
+.email {
+    color: white;
+}
+
+#email {
+    font-size: 15px;
+}

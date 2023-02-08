@@ -1,108 +1,89 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Sleepover Experience
 
-Welcome USER_NAME,
+The Sleepover Experience is a site for my business that will help to promote what we do.
+The site will be targeted toward potential customers who are looking to hire sleepover tents for children in the Neath Port Talbot area.
+The Sleepover Experience will be useful for potential customers to see what themes we have available, the prices and to make a booking.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<screen images - phone, tablet, laptop, desktop> https://ui.dev/amiresponsive
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Deployment
 
-## Gitpod Reminders
+### GitHub Pages
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+I used the following steps to deploy the project.
 
-`python3 -m http.server`
+1. Log in to GitHub and navigate to the repository.
+2. On GitHub repository page, click on settings tab.
+3. Scroll down to Pages tab on the menu on the left hand side.
+4. Under Source, click the branch drop down menu and select main.
+5. Click Save.
+6. The page will update and show the text "Your site is published at https://
 
-A blue button should appear to click: _Make Public_,
+### Forking the Repository
 
-Another blue button should appear to click: _Open Browser_.
+To fork the repository in order to make a copy so as to view or make changes to the site without affecting the original 
+repository, the following steps are to be used.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+1. Log in to GitHub and navigate to the repository.
+2. On the right hand side, above the setting tab, click the 'Fork' button.
+3. There will now be a copy of the original repository in your GitHub account.
 
-A blue button should appear to click: _Make Public_,
+## Testing
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Validator Testing
 
-To log into the Heroku toolbelt CLI:
+* HTML
+	* 
+* CSS
+	* 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Unfixed Bugs
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Navbar toggle button not working
 
-------
+## Features
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Existing Features
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+* Navigation Bar
+	* Featured on all three pages, the fully responsive navigation bar includes links to the Home page (About Us, Themes & pricing),
+	  Gallery and Contact Us pages and is identical in each page to allow for easy navigation.
+	* This section will allow the user to easily navigate from page to page across all devices without having to 
+	  revert back to the previous page via the 'back' button.
+	* Each page includes a background colour that matches the navbar icon colour for that page to allow the user to see 
+	  exactly which page they are currently on
+<img nav bar>
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* The landing page colours
+	* This section introduces the user to The Sleepover Experience with an eye catching photo to grab their attention.
+<img hero img>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## UX
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### Site Goals
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### User Stories
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+As a shopper:
+	* I want to be able to see what themes are currently available.
+	* I want to be able to find out what is included with the hire.
+	* I want to be able to see what the different prices are.
+	* I want to be able to see photos of setups in real life.
+	* I want to be able to get in touch to ask questions.
+	* I want to be able to enquire about availability.
+	* I want to find out what themes are coming next.
+	
+As the site Administrator:
+	* I want to be able to add new themes.
+	* I want to edit existing prices.
+	* I want to be able to add new photos.
+	* I want to engage with potential customers
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Wireframes
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+To see all wireframes created in the UX stage <Click Here!>
