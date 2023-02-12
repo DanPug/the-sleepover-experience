@@ -5,10 +5,12 @@
 .themes-bg {
     margin-top: 125px;
     margin-bottom: 75px;
+    margin-left: 30px;
+    margin-right: 30px;
     background-color: rgb(151, 229, 243);
     font-family: 'Roboto Slab', serif;
     color: grey;
-}  
+}
 
 .gallery-bg {
     margin-top: 125px;
@@ -65,39 +67,185 @@
 }
 
 .themes-and-pricing-icon {
-    color:rgb(151, 229, 243);
+    color: rgb(151, 229, 243);
     font-size: 30px;
 }
 
 .gallery-icon {
-    color:rgb(247, 175, 149);
+    color: rgb(247, 175, 149);
     font-size: 30px;
 }
 
 .contact-us-icon {
-    color:rgb(224, 149, 247);
+    color: rgb(224, 149, 247);
     font-size: 30px;
 }
 
-/*---------------------------------------------- Section -- */
+/* Large Screens */
+@media (min-width: 992px) {
+    .navbar-brand {
+        font-size: 32px;
+    }
+}
 
+/* Small Screens */
+@media (max-width: 991px) {
+    .navbar-brand {
+        font-size: 24px;
+    }
+}
 
+/*---------------------------------------------- About Us Section -- */
+
+.container-fluid {
+    display: flex;
+    align-items: start;
+}
+
+.about-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.about-heading i {
+    margin-right: 20px;
+}
+
+.family-icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    margin-right: 1px;
+}
+
+#about-us {
+    font-size: 20px;
+}
+
+/*---------------------------------------------- Themes Section -- */
+
+.themes {
+    margin-bottom: 35px;
+}
+
+.themes h4 {
+    margin-left: 60px;
+}
+
+.themes-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.themes-heading i {
+    margin-right: 20px;
+}
+
+.img-fluid {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+#centre-logo {
+    margin-top: 40px;
+}
+
+#coming-soon-heading {
+    font-size: 40px;
+    margin-top: 75px;
+    margin-left: 100px;
+}
+
+#coming-soon {
+    font-size: 30px;
+    margin-left: 125px;
+}
+
+/*---------------------------------------------- Pricing Section -- */
+
+.pricing {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 150px;
+}
+
+.pricing-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pricing-heading i {
+    margin-right: 20px;
+}
+
+#gold {
+    border: solid 1px;
+    background-color: gold;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#gold p {
+    background-color: gold;
+}
+
+#silver {
+    border: solid 1px;
+    background-color: silver;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#silver p {
+    background-color: silver;
+}
+
+#bronze {
+    border: solid 1px;
+    background-color: rgb(163, 73, 13);
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#bronze p {
+    background-color: rgb(163, 73, 13);
+}
+
+.list-group-item::before {
+    content: "●";
+    margin-right: 0.75rem;
+}
 
 /*---------------------------------------------- Footer -- */
 
 .footer-details {
     background: linear-gradient(to right, #fff, #dcdcdc);
     color: grey;
-    font-size: 15px;
+    text-align: center;
+    padding: 5px;
 }
 
-.social-media-icons {
-    font-size: 15px;
-    padding: 0 15px 0 25px;  
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0;
+    padding: 0;
+}
+
+.social-media li {
+    font-size: 20px;
+    padding: 0 15px 0 25px;
 }
 
 .facebook {
-    color:blue;
+    color: blue;
 }
 
 .instagram {
@@ -108,14 +256,6 @@
     color: green;
 }
 
-#whatsapp {
-    font-size: 15px;  
-  }
-
 .email {
     color: white;
-}
-
-#email {
-    font-size: 15px;
 }
