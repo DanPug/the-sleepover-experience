@@ -5,146 +5,126 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/93a9f8a4ae.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/style.css">
     <title>The Sleepover Experience</title>
 </head>
 
-<body class="themes-bg">
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-col-navbar-themes fixed-top">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/the-sleepover-experience-logo.png" class="rounded-circle"
+                alt="The Sleepover Experience Logo" id="logo" title="logo" width="80" height="80">
+            <span class="d-none d-md-inline-block">THE SLEEPOVER EXPERIENCE</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuItems"
+            aria-controls="menuItems" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuItems">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item active-nl">
+                    <a class="nav-link" href="index.html">
+                        <i class="fa-solid fa-campground themes-and-pricing-icon" aria-hidden="true"></i>
+                        Themes & Pricing
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">
+                        <i class="fa-solid fa-campground gallery-icon" aria-hidden="true"></i>
+                        Gallery
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <i class="fa-solid fa-campground contact-us-icon" aria-hidden="true"></i>
+                        Contact Us
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
     <header>
-        <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-col-navbar-themes fixed-top" id="menuItems">
-            <a class="navbar-brand" href="index.html">
-                <img src="assets/images/the-sleepover-experience-logo.png" class="rounded-circle"
-                    alt="The Sleepover Experience Logo" id="logo" width="80" height="80">
-                <span>THE SLEEPOVER EXPERIENCE</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuItems"
-                aria-controls="menuItems" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menuItems">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item active-nl">
-                        <a class="nav-link" href="index.html">
-                            <i class="fa-solid fa-campground themes-and-pricing-icon" aria-hidden="true"></i>
-                            Themes & Pricing
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">
-                            <i class="fa-solid fa-campground gallery-icon" aria-hidden="true"></i>
-                            Gallery
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">
-                            <i class="fa-solid fa-campground contact-us-icon" aria-hidden="true"></i>
-                            Contact Us
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <section id="landing-page"></section>
     </header>
 
-    <section> <!-- About Us Section-->
-        <div class="container-fluid about-heading">
-            <i class="fa-solid fa-people-roof" aria-hidden="true"></i>
-            <h3>About Us:</h3>
+    <section class="container-fluid themes-bg">
+        <!-- About Us Section-->
+        <div class="container-fluid">
+            <div class="row about-us">
+                <i class="fa-solid fa-people-roof" aria-hidden="true"></i><h3><strong>About Us:</strong></h3>
+                <br>
+                <p id="about-us-text">We are a small family business that provides indoor sleepover tent hire for
+                    children in
+                    the
+                    Neath
+                    Port
+                    Talbot area. We have been running since 2021. Our family consists of myself, Daniel, my wife
+                    Harriet,
+                    our 2 young boys and our baby girl. We aim to provide a better sleepover experience by supplying
+                    larger
+                    than average tents with full size single airbeds. Our customers always give positive feedback
+                    and
+                    say they
+                    had a good nights sleep!
+                </p>
+            </div>
         </div>
-        <div>
-            <p id="about-us">We are a small family business that provides indoor sleepover tent hire for children in the
-                Neath
-                Port
-                Talbot area. We have been running since 2021. Our family consists of myself, Daniel, my wife
-                harriet,
-                our 2 young boys and our baby girl. We aim to provide a better sleepover experience by supplying
-                larger
-                than average tents with full size single airbeds. Our customers always give positive feedback
-                and
-                say they
-                had a good nights sleep!
-            </p>
-        </div>
-        <hr>
+
     </section>
 
-    <section> <!-- Our Current Themes Section -->
+    <section class="themes">
+        <!-- Our Current Themes Section -->
         <div class="container-fluid themes-heading">
-            <i class="fa-solid fa-face-grin-stars" aria-hidden="true"></i>
-            <h3>Our Current Themes:</h3>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="row themes text-center">
-                    <img src="assets/images/sleepover-experience-logo.png"
-                        class="img-fluid rounded-circle mx-auto d-block" alt="The Sleepover Experience Logo"
-                        id="centre-logo">
-                </div>
-                <div class="row themes">
-                    <h4>Christmas Cracker:</h4>
-                    <img src="assets/images/christmas-theme.png" class="img-fluid mx-auto d-block"
-                        alt="Christmas setup">
-                </div>
-                <div class="row themes">
-                    <h4>Battle Royale:</h4>
-                    <img src="assets/images/gaming1-theme.png" class="img-fluid mx-auto d-block" alt="Gaming setup 1">
-                </div>
+            <div class="row current-themes">
+                <i class="fa-solid fa-face-grin-stars" aria-hidden="true"></i>
+                <h3><strong>Our Current Themes:</strong></h3>
+                <br>
+
+
+                <ul class="list-unstyled" id="current-themes">
+                    <li>Battle Royale - perfect for fans of Fortnite</li>
+                    <li>Crazy Creepers - Perfect for fans of Minecraft</li>
+                    <li>Gaming Heaven</li>
+                    <li>Gamer for Life</li>
+                    <li>Unicorn Dreams</li>
+                    <li>Rainbow Magic</li>
+                    <li>Halloween Spooktacular</li>
+                    <li>Christmas Cracker</li>
+                </ul>
+
+
+                <h4 id="coming-soon-heading"><strong>Coming soon!</strong></h4>
+                <ul class="list-unstyled" id="coming-soon">
+                    <li>Alien Invasion - Perfect for fans of Stitch</li>
+                    <li>Summer Vibes</li>
+                    <li>Rose Gold</li>
+                    <li>Gaming Girls</li>
+                </ul>
+                <p>Check out our <span style="background-color: #8feeef">GALLERY</span> page for photos!</p>
             </div>
 
-            <div class="col-md-4">
-                <div class="row themes">
-                    <h4>Crazy Creepers:</h4>
-                    <img src="assets/images/gaming2-theme.png" class="img-fluid mx-auto d-block" alt="Gaming setup 2">
-                </div>
-                <div class="row themes">
-                    <h4>Halloween Spooktacular:</h4>
-                    <img src="assets/images/halloween-theme.png" class="img-fluid mx-auto d-block"
-                        alt="Halloween setup">
-                </div>
-                <div class="row themes">
-                    <h4>Gaming Heaven:</h4>
-                    <img src="assets/images/gaming3-theme.png" class="img-fluid mx-auto d-block" alt="Gaming setup 3">
-                </div>
-            </div>
-
-            <div class="col-md-4">
-                <div class="row themes">
-                    <h4>Rainbow Magic:</h4>
-                    <img src="assets/images/rainbow-theme.png" class="img-fluid mx-auto d-block" alt="Rainbow setup">
-                </div>
-                <div class="row themes">
-                    <h4>Unicorn Dreams:</h4>
-                    <img src="assets/images/unicorn-theme.png" class="img-fluid mx-auto d-block" alt="Unicorn setup">
-                </div>
-                <div class="row">
-                    <h4 id="coming-soon-heading">Coming soon!</h4>
-                    <ul id="coming-soon">
-                        <li>Alien Invasion</li>
-                        <li>Summer Vibes</li>
-                        <li>Rose Gold</li>
-                        <li>Gaming Girls</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <hr>
     </section>
 
-    <section> <!-- Pricing Section -->
+    <section class="themes-bg">
+        <!-- Pricing Section -->
         <div class="container-fluid pricing-heading">
-            <i class="fa-solid fa-coins"></i>
-            <h3>Our Pricing Packages:</h3>
+            <div class="row pricing-heading">
+                <i class="fa-solid fa-coins"></i>
+                <h3><strong>Our Pricing Packages:</strong></h3>
+            </div>
         </div>
         <div class="row pricing">
             <div class="col-md-4" id="gold">
                 <h4>Gold Package</h4>
                 <h3>£40 per tent per night</h3>
                 <p>Includes the following:</p>
-                <ul class="list-group">
+                <ul class="list-group gold">
                     <li class="list-group-item">Tent frame with cover</li>
                     <li class="list-group-item">Full-size single airbed with sheet</li>
                     <li class="list-group-item">10.5 tog duvet with themed cover</li>
@@ -158,7 +138,7 @@
                     <li class="list-group-item">Evening treat</li>
                     <li class="list-group-item">Breakfast cereal including bowl and spoon</li>
                     <li class="list-group-item">Some themes also have additional tray decoration</li>
-                    <p></p>
+
                 </ul>
             </div>
 
@@ -166,7 +146,7 @@
                 <h4>Silver Package</h4>
                 <h3>£35 per tent per night</h3>
                 <p>Includes the following:</p>
-                <ul class="list-group">
+                <ul class="list-group silver">
                     <li class="list-group-item">Tent frame with cover</li>
                     <li class="list-group-item">Full-size single airbed with sheet</li>
                     <li class="list-group-item">10.5 tog duvet with themed cover</li>
@@ -179,7 +159,7 @@
                     <li class="list-group-item">Themed Bunting</li>
                     <li class="list-group-item">Choice of evening treat or breakfast cereal</li>
                     <li class="list-group-item">Some themes also have additional tray decoration</li>
-                    <p></p>
+
                 </ul>
             </div>
 
@@ -187,7 +167,7 @@
                 <h4>Bronze Package</h4>
                 <h3>£30 per tent per night</h3>
                 <p>Includes the following:</p>
-                <ul class="list-group">
+                <ul class="list-group bronze">
                     <li class="list-group-item">Tent frame with cover</li>
                     <li class="list-group-item">Full-size single airbed with sheet</li>
                     <li class="list-group-item">10.5 tog duvet with themed cover</li>
@@ -199,7 +179,7 @@
                     <li class="list-group-item">Fairy lights</li>
                     <li class="list-group-item">Themed Bunting</li>
                     <li class="list-group-item">Some themes also have additional tray decoration</li>
-                    <p></p>
+
                 </ul>
             </div>
         </div>
@@ -211,28 +191,30 @@
             <ul class="list-inline social-media">
                 <li class="list-inline-item">
                     <a target="_blank" href="https://facebook.com/thesleepoverexperience/">
-                        <i class="fa-brands fa-square-facebook social-media-icons facebook" aria-hidden="true"></i>
-                        Find us on Facebook
+                        <i class="fa-brands fa-square-facebook facebook" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
                     <a target="_blank" href="http://instagram.com/the_sleepover_experience">
-                        <i class="fa-brands fa-instagram social-media-icons instagram" aria-hidden="true"></i>
-                        Follow us on Instagram
+                        <i class="fa-brands fa-instagram instagram" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li id="whatsapp" class="list-inline-item">
-                    <i class="fa-brands fa-whatsapp social-media-icons whatsapp" aria-hidden="true"></i>
-                    <span>WhatsApp - 07525189474</span>
+                    <a href="contact.html" aria-hidden="true">
+                    <i class="fa-brands fa-whatsapp whatsapp" aria-hidden="true"></i>
+                    </a>
                 </li>
                 <li id="email" class="list-inline-item">
-                    <i class="fa-solid fa-envelope social-media-icons email" aria-hidden="true"></i>
-                    <span>Email - TSE@outlook.com</span>
+                    <a href="contact.html" aria-hidden="true">
+                    <i class="fa-solid fa-envelope email" aria-hidden="true"></i>
+                    </a>
                 </li>
             </ul>
         </nav>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

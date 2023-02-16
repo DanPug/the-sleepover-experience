@@ -13,11 +13,11 @@
 </head>
 
 <body class="gallery-bg">
-    <nav class="navbar navbar-expand-lg navbar-light bg-col-navbar-themes fixed-top" id="menuItems">
+    <nav class="navbar navbar-expand-lg navbar-light bg-col-navbar-gallery fixed-top">
         <a class="navbar-brand" href="index.html">
-            <img src="assets/images/the-sleepover-experience-logo.png" alt="The Sleepover Experience Logo" id="logo"
-                width="80" height="80">
-            <span>THE SLEEPOVER EXPERIENCE</span>
+            <img src="assets/images/the-sleepover-experience-logo.png" class="rounded-circle"
+                alt="The Sleepover Experience Logo" id="logo" width="80" height="80">
+            <span class="d-none d-md-inline-block">THE SLEEPOVER EXPERIENCE</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menuItems"
             aria-controls="menuItems" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,42 @@
         </div>
     </nav>
 
-    <section>
+    <section class="gallery-page">
+
+        <div class=" container-fluid gallery-heading">
+            <div class="row">
+                <i class="fa-regular fa-images"></i>
+                <h3><strong>Gallery</strong></h3>
+            </div>
+        </div>
+        <div>
+            <h5 id="gallery-text">Check out our amazing themes below:</h5>
+        </div>
+        <div class="gallery">
+            <img src="assets/images/gaming1-theme.png" class="rounded-4 gallery" alt="Battle Royale">
+            <img src="assets/images/gaming2-theme.png" class="rounded-4 gallery" alt="Crazy Creepers">
+            <img src="assets/images/gaming3-theme.png" class="rounded-4 gallery" alt="Gaming Heaven">
+            <img src="assets/images/unicorn-theme.png" class="rounded-4 gallery" alt="Unicorn dreams">
+            <img src="assets/images/rainbow-theme.png" class="rounded-4 gallery" alt="Rainbow Magic">
+            <img src="assets/images/halloween-theme.png" class="rounded-4 gallery" alt="Halloween">
+            <img src="assets/images/christmas-theme.png" class="rounded-4 gallery" alt="Christmas">
+        </div>
+        <div>
+            <h5 id="gallery-text">Check out our real-life setups below for an idea of theme combinations:</h5>
+        </div>
+        <div class="gallery">
+            <img src="assets/images/image1.png" class="rounded-4 gallery" alt="Image 1">
+            <img src="assets/images/image3.jpg" class="rounded-4 gallery" alt="Image 3">
+            <img src="assets/images/image2.png" class="rounded-4 gallery" alt="Image 2">
+            <img src="assets/images/image4.png" class="rounded-4 gallery" alt="Image 4">
+            <img src="assets/images/image5.png" class="rounded-4 gallery" alt="Image 5">
+            <img src="assets/images/image6.png" class="rounded-4 gallery" alt="Image 6">
+            <img src="assets/images/image7.png" class="rounded-4 gallery" alt="Image 7">
+            <img src="assets/images/image8.png" class="rounded-4 gallery" alt="Image 8">
+            <img src="assets/images/image9.png" class="rounded-4 gallery" alt="Image 9">
+            <img src="assets/images/image10.png" class="rounded-4 gallery" alt="Image 10">
+            <img src="assets/images/image11.png" class="rounded-4 gallery" alt="Image 11">
+        </div>
 
     </section>
 
@@ -57,28 +92,30 @@
             <ul class="list-inline social-media">
                 <li class="list-inline-item">
                     <a target="_blank" href="https://facebook.com/thesleepoverexperience/">
-                        <i class="fa-brands fa-square-facebook social-media-icons facebook" aria-hidden="true"></i>
-                        Find us on Facebook
+                        <i class="fa-brands fa-square-facebook facebook" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
                     <a target="_blank" href="http://instagram.com/the_sleepover_experience">
-                        <i class="fa-brands fa-instagram social-media-icons instagram" aria-hidden="true"></i>
-                        Follow us on Instagram
+                        <i class="fa-brands fa-instagram instagram" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li id="whatsapp" class="list-inline-item">
-                    <i class="fa-brands fa-whatsapp social-media-icons whatsapp" aria-hidden="true"></i>
-                    <span>WhatsApp - 07525189474</span>
+                    <a href="contact.html" aria-hidden="true">
+                    <i class="fa-brands fa-whatsapp whatsapp" aria-hidden="true"></i>
+                    </a>
                 </li>
                 <li id="email" class="list-inline-item">
-                    <i class="fa-solid fa-envelope social-media-icons email" aria-hidden="true"></i>
-                    <span>Email - TSE@outlook.com</span>
+                    <a href="contact.html" aria-hidden="true">
+                    <i class="fa-solid fa-envelope email" aria-hidden="true"></i>
+                    </a>
                 </li>
             </ul>
         </nav>
     </footer>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
