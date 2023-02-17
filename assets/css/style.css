@@ -1,10 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto Slab:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/*@import url('https://fonts.googleapis.com/css?family=Roboto Slab:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap');
 
 /*---------------------------------------------- Page Attributes -- */
 
-.themes-bg {
+body {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+
+.home-bg {
     background-color: #8feeef;
     font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     color: #808a7b;
     margin-top: 50px;
     margin-bottom: 0;
@@ -19,16 +27,16 @@
 .gallery-bg {
     background-color: rgb(255 189 148);
     font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     color: #808a7b;
-    margin-top: 125px;
     margin-bottom: 75px;
 }
 
 .contact-bg {
     background-color: rgb(255 166 221);
     font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     color: #808a7b;
-    margin-top: 125px;
     margin-bottom: 75px;
 }
 
@@ -56,20 +64,8 @@
 
 /*---------------------------------------------- Nav Bar -- */
 
-.bg-col-navbar-themes {
+.bg-col-navbar {
     background: linear-gradient(to right, #fff, #808a7b);
-    --bs-navbar-hover-color: #8feeef;
-    ;
-}
-
-.bg-col-navbar-gallery {
-    background: linear-gradient(to right, #fff, #808a7b);
-    --bs-navbar-hover-color: rgb(255 189 148);
-}
-
-.bg-col-navbar-contact {
-    background: linear-gradient(to right, #fff, #808a7b);
-    --bs-navbar-hover-color: rgb(255 166 221);
 }
 
 .navbar-brand {
@@ -77,17 +73,33 @@
     font-size: 24px;
     color: #808a7b;
     text-align: center;
-    --bs-navbar-brand-hover-color: hsl(102deg 63% 76%);
     padding-left: 15px;
 }
 
-.nav-link {
-    list-style: none;
-    font-size: 20px;
+.navbar-brand:hover {
+    color: hsl(102deg 63% 76%);
+}
+
+.navbar-nav .nav-link {
     color: #fff;
-    font-weight: 400;
-    opacity: 80%;
-    --bs-navbar-nav-link-padding-x: 30px;
+    font-size: 20px;
+    padding: 30px;
+}
+  
+.navbar-nav .nav-link:hover {
+    color: #808a7b;
+}
+
+.navbar-nav .nav-link i {
+    padding: 10px;
+}
+
+.navbar-collapse.show .navbar-nav .nav-link {
+    color: #808a7b;
+}
+  
+.navbar-collapse.show .navbar-nav .nav-link:hover {
+    color: #fff;
 }
 
 .active-nl a {
@@ -123,21 +135,28 @@
     }
 }
 
-/*---------------------------------------------- Hero Section -- */
+/*---------------------------------------------- Landing Page Image -- */
 
 #landing-page {
-      margin-top: -250px;
-      height: 110vh;
+      margin-top: -350px;
+      padding: 0;
+      /*height: 110vh;
       width: 100%;
-      background-image: url("../images/landing-page-image.png");
+      background-image: url("../images/landing-page-desktop.png");
       background-color: #fff;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
       -webkit-background-size: cover;
       -moz-background-size: cover;
-      -o-background-size: cover;
-     
+      -o-background-size: cover;*/
+      background-image: url("../images/landing-page-desktop.png");
+      height: 110vh;
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
 
 /* Small Screens */
@@ -402,6 +421,14 @@
     font-size: 20px;
     margin-bottom: 20px;
     margin-top: 20px;
+}
+
+.contact-heading p {
+    font-weight: 500;
+}
+
+.contact-form {
+    border: solid 1px #fff;
 }
 
 /* Large Screens */
