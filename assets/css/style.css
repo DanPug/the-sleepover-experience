@@ -1,6 +1,4 @@
-/*@import url('https://fonts.googleapis.com/css?family=Roboto Slab:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');*/
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500|Exo:100,200,300,400,500');
 
 /*---------------------------------------------- Page Attributes -- */
 
@@ -13,7 +11,7 @@ body {
     background-color: #8feeef;
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
-    color: #808a7b;
+    color: #000;
     margin-top: 50px;
     margin-bottom: 0;
     margin-left: 0px;
@@ -28,7 +26,7 @@ body {
     background-color: rgb(255 189 148);
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
-    color: #808a7b;
+    color: #08467b;
     margin-bottom: 75px;
 }
 
@@ -36,7 +34,7 @@ body {
     background-color: rgb(255 166 221);
     font-family: 'Roboto Slab', serif;
     font-weight: 400;
-    color: #808a7b;
+    color: #007516;
     margin-bottom: 75px;
 }
 
@@ -45,7 +43,8 @@ body {
 
 /* Small Screens */
 @media screen and (max-width: 991px) {
-    .themes-bg {
+    
+.themes-bg {
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -103,7 +102,7 @@ body {
 }
 
 .active-nl a {
-    opacity: 100%;
+    opacity: 80%;
 }
 
 .themes-and-pricing-icon {
@@ -138,25 +137,20 @@ body {
 /*---------------------------------------------- Landing Page Image -- */
 
 #landing-page {
-      margin-top: -350px;
+      margin-top: -250px;
       padding: 0;
-      /*height: 110vh;
-      width: 100%;
-      background-image: url("../images/landing-page-desktop.png");
-      background-color: #fff;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
+      /*width: 100%;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;*/
-      background-image: url("../images/landing-page-desktop.png");
-      height: 110vh;
-      background-size: cover;
+      background-image: url("../images/landing-page-image.png");
+      height: 100vh;
+      background-size: contain;
       background-position: center;
       display: flex;
       align-items: center;
       justify-content: center;
+      background-repeat: no-repeat;
     }
 
 /* Small Screens */
@@ -173,6 +167,7 @@ body {
 
 .about-us {
     display: inline-block;
+    color: #701110;
     font-size: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -181,6 +176,7 @@ body {
 }
 
 #about-us-text {
+    color: #701110;
     font-size: 30px;
     margin: 0;
 }
@@ -200,7 +196,6 @@ body {
         text-align: center;
     }
     
-
 #about-us-text {
     font-size: 20px;
     }
@@ -208,7 +203,6 @@ body {
 /*---------------------------------------------- Themes Section -- */
 
 .themes {
-    color: #808a7b;
     margin-bottom: 35px;
 }
 
@@ -258,18 +252,15 @@ body {
     #coming-soon-heading {
         font-size: 20px;
         margin-top: 25px;
-        
     }
 
     #coming-soon li {
         font-size: 20px;
-       
     }
 
     .img-fluid {
         display: inline;
         width: 90%;
-    
     }
 }
 
@@ -283,11 +274,11 @@ body {
 
 .pricing-heading {
     display: inline-block;
+    color: #701110;
     font-size: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
     text-align: center;
-    
 }
 
 .pricing-heading i {
@@ -301,6 +292,7 @@ body {
 #gold {
     border: solid 1px;
     background-color: gold;
+    color: #000 ;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -371,7 +363,7 @@ body {
     margin-right: 20px;
 }
 
-#gallery-text {
+.gallery-text {
     font-size: 30px;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -395,7 +387,6 @@ body {
 .gallery img {
     width: 100%;
     margin-left: 10px;
-
 }
 
 /* Large Screens */
@@ -425,10 +416,6 @@ body {
 
 .contact-heading p {
     font-weight: 500;
-}
-
-.contact-form {
-    border: solid 1px #fff;
 }
 
 /* Large Screens */
