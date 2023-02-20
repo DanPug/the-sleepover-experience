@@ -31,22 +31,22 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-campground themes-and-pricing-icon" aria-hidden="true"></i>
+                            <i class="fa-solid fa-house themes-and-pricing-icon" aria-hidden="true"></i>
                             Home
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#about-us">About Us</a></li>
-                            <li><a class="dropdown-item" href="#themes">Current Themes</a></li>
-                            <li><a class="dropdown-item" href="#pricing">Pricing</a></li>
+                            <li><a class="dropdown-item" href="index.html#about-us">About Us</a></li>
+                            <li><a class="dropdown-item" href="index.html#themes">Current Themes</a></li>
+                            <li><a class="dropdown-item" href="index.html#pricing">Pricing</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html"><i class="fa-solid fa-campground gallery-icon"
+                        <a class="nav-link" href="gallery.html"><i class="fa-regular fa-images gallery-icon"
                                 aria-hidden="true"></i>Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active-nl" href="contact.html"><i class="fa-solid fa-campground contact-us-icon"
-                                aria-hidden="true"></i>Contact Us</a>
+                        <a class="nav-link active-nl" href="contact.html"><i
+                                class="fa-solid fa-address-book contact-us-icon" aria-hidden="true"></i>Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -54,64 +54,79 @@
     </nav>
 
     <section class="contact-page">
-        <div class=" container-fluid contact-heading">
-            <div class="row">
-                <i class="fa-solid fa-address-book" aria-hidden="true"></i>
-                <h3><strong>Contact Us</strong></h3>
-                <p>Email: TheSleepoverExperience@outlook.com</p>
-                <p>WhatsApp: 07525189474</p>
-                <p>Facebook: Click on the link below to go to our page</p>
-                <p>Instagram: Click on the link below to go to our profile</p>
-                <p>Or send us a message via the form on this page!</p>
+        <div class=" container-fluid">
+            <div class="row d-flex justify-content-center contact-heading">
+                <div class="col contact-heading">
+                    <i class="fa-solid fa-address-book" aria-hidden="true"></i>
+                    <h3><strong>Contact Us</strong></h3>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-4 font-size-24">
+                    <p>Send us a message!</p>
+                    <p>Remember to include the following details:
+                        <ul class="text-align-left font-size-24">
+                            <li>The number of tents required</li>
+                            <li>The number of nights required</li>
+                            <li>Your preferred theme(s)</li>
+                            <li>The date of the hire</li>
+                            <li>Your postcode</li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="col-md-8 form">
+                    <form action="submit-form.php" method="POST">
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingFname" placeholder="First Name"
+                                required>
+                            <label for="floatingFname" class="form-label">First Name:</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingLname" placeholder="Last Name" required>
+                            <label for="floatingLname" class="form-label">Last Name:</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingEmail" placeholder="Email" required>
+                            <label for="floatingEmail" class="form-label">Email:</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <textarea class="form-control" id="floatingMessage" style="height: 200px"
+                                placeholder="Message" required></textarea>
+                            <label for="floatingMessage" class="form-label">Message:</label>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-secondary">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
-        <div class="container">
-            <form action="submit-form.php" method="POST">
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingFname" placeholder="First Name" required>
-                    <label for="floatingFname" class="form-label">First Name:</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="text" class="form-control" id="floatingLname" placeholder="Last Name" required>
-                    <label for="floatingLname" class="form-label">Last Name:</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <input type="email" class="form-control" id="floatingEmail" placeholder="Email" required>
-                    <label for="floatingEmail" class="form-label">Email:</label>
-                </div>
-                <div class="form-floating mb-3">
-                    <textarea class="form-control" id="floatingMessage" style="height: 100px" placeholder="Message"
-                        required></textarea>
-                    <label for="floatingMessage" class="form-label">Message:</label>
-                </div>
-                <div class="text-center">
-                <button type="submit" class="btn btn-secondary">Submit</button>
-                </div>
-            </form>
-        </div>
 
     <!-- Footer -->
     <footer>
         <nav class="fixed-bottom footer-details">
             <ul class="list-inline social-media">
                 <li class="list-inline-item">
-                    <a target="_blank" href="https://facebook.com/thesleepoverexperience/" aria-label="Visit us on Facebook">
+                    <a target="_blank" href="https://facebook.com/thesleepoverexperience/"
+                        aria-label="Visit us on Facebook">
                         <i class="fa-brands fa-square-facebook facebook"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a target="_blank" href="http://instagram.com/the_sleepover_experience" aria-label="Visit us on Instagram">
+                    <a target="_blank" href="http://instagram.com/the_sleepover_experience"
+                        aria-label="Visit us on Instagram">
                         <i class="fa-brands fa-instagram instagram"></i>
                     </a>
                 </li>
                 <li id="whatsapp" class="list-inline-item">
-                    <a href="contact.html" aria-label="Contact us via WhatsApp">
+                    <a target="_blank" href="https://wa.me/447525189474" aria-label="Contact us via WhatsApp">
                         <i class="fa-brands fa-whatsapp whatsapp"></i>
                     </a>
                 </li>
                 <li id="email" class="list-inline-item">
-                    <a href="contact.html" aria-label="Contact us via email">
+                    <a target="_blank" href="mailto: TheSleepoverExperience@outlook.com"
+                        aria-label="Contact us via email">
                         <i class="fa-solid fa-envelope email"></i>
                     </a>
                 </li>

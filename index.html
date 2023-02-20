@@ -31,7 +31,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active-nl" href="index.html" id="navbarDropdown"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-campground themes-and-pricing-icon" aria-hidden="true"></i>
+                            <i class="fa-solid fa-house themes-and-pricing-icon" aria-hidden="true"></i>
                             Home
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -41,11 +41,11 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html"><i class="fa-solid fa-campground gallery-icon"
+                        <a class="nav-link" href="gallery.html"><i class="fa-regular fa-images gallery-icon"
                                 aria-hidden="true"></i>Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html"><i class="fa-solid fa-campground contact-us-icon"
+                        <a class="nav-link" href="contact.html"><i class="fa-solid fa-address-book contact-us-icon"
                                 aria-hidden="true"></i>Contact Us</a>
                     </li>
                 </ul>
@@ -84,32 +84,34 @@
 
     <section class="themes">
         <!-- Our Current Themes Section -->
-        <div class="container-fluid themes-heading">
-            <div class="row current-themes" id="themes">
-                <i class="fa-solid fa-face-grin-stars" aria-hidden="true"></i>
-                <h3><strong>Our Current Themes:</strong></h3>
-                <br>
+        <div class="container-fluid text-align-center">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-6">
+                    <i class="fa-solid fa-face-grin-stars themes" aria-hidden="true"></i>
+                    <h3 class="themes"><strong>Our Current Themes:</strong></h3>
+                    <p>Choose any combination of our themed tents below</p>
+                    <br>
 
-                <ul class="list-unstyled" id="current-themes">
-                    <li>Battle Royale - perfect for fans of Fortnite</li>
-                    <li>Crazy Creepers - Perfect for fans of Minecraft</li>
-                    <li>Gaming Heaven</li>
-                    <li>Gamer for Life</li>
-                    <li>Unicorn Dreams</li>
-                    <li>Rainbow Magic</li>
-                    <li>Halloween Spooktacular</li>
-                    <li>Christmas Cracker</li>
-                </ul>
+                    <ul class="list-unstyled text-align-left">
+                        <li><i class="fa-solid fa-gamepad" aria-hidden="true"></i> Battle Royale - perfect for fans of Fortnite</li>
+                        <li><i class="fa-solid fa-gamepad" aria-hidden="true"></i> Crazy Creepers - Perfect for fans of Minecraft</li>
+                        <li><i class="fa-solid fa-gamepad" aria-hidden="true"></i> Gaming Heaven</li>
+                        <li><i class="fa-solid fa-gamepad" aria-hidden="true"></i> Gamer for Life</li>
+                        <li><i class="fa-solid fa-horse" aria-hidden="true"></i> Unicorn Dreams</li>
+                        <li><i class="fa-solid fa-rainbow" aria-hidden="true"></i> Rainbow Magic</li>
+                        <li><i class="fa-solid fa-ghost" aria-hidden="true"></i> Halloween Spooktacular</li>
+                        <li><i class="fa-solid fa-sleigh" aria-hidden="true"></i> Christmas Cracker</li>
+                    </ul>
 
-                <h4 id="coming-soon-heading"><strong>Coming soon!</strong></h4>
-                <ul class="list-unstyled" id="coming-soon">
-                    <li>Alien Invasion - Perfect for fans of Stitch</li>
-                    <li>Summer Vibes</li>
-                    <li>Rose Gold</li>
-                    <li>Gaming Girls</li>
-                </ul>
-                <p>Check out our <span><a href="gallery.html">GALLERY</a></span> page
-                    for photos!</p>
+                    <h3 class="text-align-left"><strong><em>Coming soon!</em></strong></h4>
+                    <ul class="list-unstyled text-align-left">
+                        <li><i class="fa-brands fa-reddit-alien" aria-hidden="true"></i> <em>Alien Invasion - Perfect for fans of Stitch</em></li>
+                        <li><i class="fa-solid fa-sun" aria-hidden="true"></i> <em>Summer Vibes</em></li>
+                        <li><i class="fa-solid fa-gamepad" aria-hidden="true"></i> <em>Gaming Girls</em></li>
+                    </ul>
+                    <p>Check out our <span><a href="gallery.html">GALLERY</a></span> page
+                        for photos!</p>
+                </div>
             </div>
         </div>
     </section>
@@ -122,8 +124,9 @@
                 <h3><strong>Our Pricing Packages:</strong></h3>
             </div>
         </div>
+
         <div class="row pricing">
-            <div class="col-md-4" id="gold">
+            <div class="col" id="gold">
                 <h4>Gold Package</h4>
                 <h3>£40 per tent per night</h3>
                 <p>Includes the following:</p>
@@ -144,7 +147,7 @@
                 </ul>
             </div>
 
-            <div class="col-md-4" id="silver">
+            <div class="col" id="silver">
                 <h4>Silver Package</h4>
                 <h3>£35 per tent per night</h3>
                 <p>Includes the following:</p>
@@ -164,7 +167,7 @@
                 </ul>
             </div>
 
-            <div class="col-md-4" id="bronze">
+            <div class="col" id="bronze">
                 <h4>Bronze Package</h4>
                 <h3>£30 per tent per night</h3>
                 <p>Includes the following:</p>
@@ -183,6 +186,7 @@
                 </ul>
             </div>
         </div>
+
     </section>
 
     <!-- Footer -->
@@ -190,22 +194,24 @@
         <nav class="fixed-bottom footer-details">
             <ul class="list-inline social-media">
                 <li class="list-inline-item">
-                    <a target="_blank" href="https://facebook.com/thesleepoverexperience/" aria-label="Visit our facebook page">
+                    <a target="_blank" href="https://facebook.com/thesleepoverexperience/"
+                        aria-label="Visit our facebook page">
                         <i class="fa-brands fa-square-facebook facebook"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
-                    <a target="_blank" href="http://instagram.com/the_sleepover_experience" aria-label="Visit our Instagram page">
+                    <a target="_blank" href="http://instagram.com/the_sleepover_experience"
+                        aria-label="Visit our Instagram page">
                         <i class="fa-brands fa-instagram instagram"></i>
                     </a>
                 </li>
                 <li id="whatsapp" class="list-inline-item">
-                    <a href="contact.html" aria-label="Contact us via WhatsApp">
+                    <a target="_blank" href="https://wa.me/447525189474" aria-label="Contact us via WhatsApp">
                         <i class="fa-brands fa-whatsapp whatsapp"></i>
                     </a>
                 </li>
                 <li id="email" class="list-inline-item">
-                    <a href="contact.html" aria-label="Contact us via email">
+                    <a target="_blank" href="mailto: TheSleepoverExperience@outlook.com" aria-label="Contact us via email">
                         <i class="fa-solid fa-envelope email"></i>
                     </a>
                 </li>
