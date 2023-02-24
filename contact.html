@@ -18,22 +18,27 @@
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-col-navbar">
         <div class="container-fluid">
+            <!--Logo & Title-->
             <a class="navbar-brand" href="index.html"><img src="assets/images/the-sleepover-experience-logo150.png"
                     class="rounded-circle" alt="The Sleepover Experience Logo" id="logo" title="logo" width="80"
                     height="80">
                 <span class="d-none d-md-inline-block">THE SLEEPOVER EXPERIENCE</span></a>
+            <!--Toggle Button-->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuItems"
                 aria-controls="menuItems" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!--Page Links-->
             <div class="collapse navbar-collapse" id="menuItems">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
+                        <!--Home Link-->
                         <a class="nav-link dropdown-toggle" href="index.html" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-house themes-and-pricing-icon" aria-hidden="true"></i>
+                            <i class="fa-solid fa-house home-icon" aria-hidden="true"></i>
                             Home
                         </a>
+                        <!--Home Link Sub-menu-->
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="index.html#about-us">About Us</a></li>
                             <li><a class="dropdown-item" href="index.html#themes">Current Themes</a></li>
@@ -41,10 +46,12 @@
                         </ul>
                     </li>
                     <li class="nav-item">
+                        <!--Gallery Link-->
                         <a class="nav-link" href="gallery.html"><i class="fa-regular fa-images gallery-icon"
                                 aria-hidden="true"></i>Gallery</a>
                     </li>
                     <li class="nav-item">
+                        <!--Contact Us Link-->
                         <a class="nav-link active-nl" href="contact.html"><i
                                 class="fa-solid fa-address-book contact-us-icon" aria-hidden="true"></i>Contact Us</a>
                     </li>
@@ -54,6 +61,7 @@
     </nav>
 
     <section class="contact-page">
+        <!--Contact Us Header and Icon-->
         <div class=" container-fluid">
             <div class="row d-flex justify-content-center contact-heading">
                 <div class="col contact-heading">
@@ -61,19 +69,20 @@
                     <h3><strong>Contact Us</strong></h3>
                 </div>
             </div>
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-4 font-size-24">
+            <!--Message Bullet Points-->
+            <div class="row d-flex justify-content-center contact-text">
+                <div class="col-md-4">
                     <p>Send us a message!</p>
-                    <p>Remember to include the following details:
-                        <ul class="text-align-left font-size-24">
-                            <li>The number of tents required</li>
-                            <li>The number of nights required</li>
-                            <li>Your preferred theme(s)</li>
-                            <li>The date of the hire</li>
-                            <li>Your postcode</li>
-                        </ul>
-                    </p>
+                    <p class="text-align-left">Remember to include the following details:</p>
+                    <ul class="text-align-left">
+                        <li>The number of tents required</li>
+                        <li>The number of nights required</li>
+                        <li>Your preferred theme(s)</li>
+                        <li>The date of the hire</li>
+                        <li>Your postcode</li>
+                    </ul>
                 </div>
+                <!--Contact Us Form-->
                 <div class="col-md-8 form">
                     <form action="submit-form.php" method="POST">
                         <div class="form-floating mb-3">
@@ -108,24 +117,28 @@
         <nav class="fixed-bottom footer-details">
             <ul class="list-inline social-media">
                 <li class="list-inline-item">
+                    <!--Facebook-->
                     <a target="_blank" href="https://facebook.com/thesleepoverexperience/"
                         aria-label="Visit us on Facebook">
                         <i class="fa-brands fa-square-facebook facebook"></i>
                     </a>
                 </li>
                 <li class="list-inline-item">
+                    <!--Instagram-->
                     <a target="_blank" href="http://instagram.com/the_sleepover_experience"
                         aria-label="Visit us on Instagram">
                         <i class="fa-brands fa-instagram instagram"></i>
                     </a>
                 </li>
                 <li id="whatsapp" class="list-inline-item">
+                    <!--WhatsApp-->
                     <a target="_blank" href="https://wa.me/447525189474" aria-label="Contact us via WhatsApp">
                         <i class="fa-brands fa-whatsapp whatsapp"></i>
                     </a>
                 </li>
                 <li id="email" class="list-inline-item">
-                    <a target="_blank" href="mailto: TheSleepoverExperience@outlook.com"
+                    <!--Email-->
+                    <a target="_blank" href="mailto:TheSleepoverExperience@outlook.com"
                         aria-label="Contact us via email">
                         <i class="fa-solid fa-envelope email"></i>
                     </a>

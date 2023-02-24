@@ -7,43 +7,17 @@ body {
     font-weight: 400;
 }
 
-.home-bg {
-    background-color: #8feeef;
-    color: #000;
-    margin: 50px 0 70px 0;
-    padding: 0 30px 15px 30px;
-}
-
-.gallery-bg {
-    background-color: rgb(255 189 148);
-    color: #08467b;
-    margin-bottom: 140px;
-}
-
-.contact-bg {
-    background-color: rgb(255 166 221);
-    color: #000;
-    margin-bottom: 70px;
-}
-
-/* Below Large Screens (e.g. iPad) */
-@media (max-width: 991px) {}
-
-/* Below Medium Screens (e.g. Blackberry Playbook) */
-@media (max-width: 767px) {}
-
-/* Below Small Screens (e.g. iPhone 5) */
-@media (max-width: 575px), (max-height: 575px) {}
-
 /*---------------------------------------------- Nav Bar -- */
 
 .bg-col-navbar {
     background: linear-gradient(to right, #fff, #808a7b);
 }
 
+/* Nav Bar Logo and Title */
+
 .navbar-brand {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 26px;
     color: #808a7b;
     text-align: center;
     padding-left: 15px;
@@ -52,6 +26,8 @@ body {
 .navbar-brand:hover {
     color: #e1aaf0;
 }
+
+/* Nav Bar Link Text */
 
 .navbar-nav .nav-link {
     color: #fff;
@@ -79,7 +55,9 @@ body {
     opacity: 80%;
 }
 
-.themes-and-pricing-icon {
+/* Nav Bar Link Icons */
+
+.home-icon {
     color: #8feeef;
     font-size: 30px;
 }
@@ -100,6 +78,7 @@ body {
     .navbar-brand {
         font-size: 20px;
     }
+
 }  
 
 /* Below Medium Screens */
@@ -107,6 +86,11 @@ body {
 
     .navbar-brand {
         font-size: 18px;
+    }
+
+    #logo {
+        width: 60px;
+        height: 60px;
     }
 }
 
@@ -116,51 +100,77 @@ body {
     .navbar-brand {
         font-size: 16px;
     }
+
+    #logo {
+        width: 40px;
+        height: 40px;
+    }
 }
 
-/*---------------------------------------------- Landing Page Image -- */
+/*-------------------------------------------------------- Home Page -- */
+
+.home-bg {
+    background-color: #8feeef;
+    color: #000;
+    margin: 50px 0 70px 0;
+    padding: 0 30px 15px 30px;
+}
+
+/* Below Small Screens */
+@media (max-width: 575px), (max-height: 575px) {
+    
+    .home-bg {
+        padding-left: 10px;
+        padding-right: 10px;
+    }   
+}
+
+/*----------------------------------------- Landing Page Image -- */
 
 #landing-page {
-      background-image: url("../images/landing-page-image.png");
-      height: 100vh;
-      background-size: contain;
-      background-position: center;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-repeat: no-repeat;
-      margin-top: -250px;
-      padding: 0;
-      -webkit-background-size: contain;
-      -moz-background-size: contain;
-      -o-background-size: contain;
-    }
+    background-image: url("../images/landing-page-image.png");
+    height: 100vh;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    margin-top: -250px;
+    padding: 0;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+  }
 
 /* Below Large Screens */
 @media (max-width: 991px) {
 
-    #landing-page {
-        margin-top: 0;
-        background-size: contain;
-        height: 25vh;
-       }
+  #landing-page {
+      margin-top: 0;
+      height: 50vh;
+     }
 }
 
 /* Below Medium Screens */
 @media (max-width: 767px) {
 
-    #landing-page {
-        margin-top: 0;
-        background-size: contain;
-        height: 25vh;
-       }
+  #landing-page {
+      height: 33.3vh;
+     }
 }
 
 /* Below Small Screens */
-@media (max-width: 575px), (max-height: 575px) {}
+@media (max-width: 575px), (max-height: 575px) {
 
-/*---------------------------------------------- About Us Section -- */
+    #landing-page {
+        height: 33.3vh;
+       }
+}
 
+/*----------------------------------------- About Us Section -- */
+
+/* Header */
 .about-us {
     display: inline-block;
     color: #000;
@@ -171,6 +181,15 @@ body {
     text-align: center;
 }
 
+.about-us i {
+    font-size: 30px;
+}
+
+.about-us h3 {
+    font-size: 30px;
+}
+
+/*Paragraph - text only*/
 #about-us-text {
     color: #000;
     font-size: 30px;
@@ -181,16 +200,12 @@ body {
 @media (max-width: 991px) {
 
     .about-us {
-        display: inline-block;
-        font-size: 30px;
-        margin-bottom: 20px;
         margin-top: 40px;
-        padding-top: 20px;
-        text-align: center;
     }
     
-.home-page-text {
-    font-size: 20px;
+.about-us-text {
+    font-size: 26px;
+    text-align: justify;
     }
 }
 
@@ -198,29 +213,38 @@ body {
 @media (max-width: 767px) {
 
     .about-us {
-        display: inline-block;
-        font-size: 30px;
-        margin-bottom: 20px;
-        margin-top: 40px;
-        padding-top: 20px;
-        text-align: center;
+        margin-top: 20px;
     }
     
-.home-page-text {
+.about-us-text {
     font-size: 20px;
     }
 }
 
 /* Below Small Screens */
-@media (max-width: 575px), (max-height: 575px) {}
+@media (max-width: 575px), (max-height: 575px) {
 
-/*---------------------------------------------- Themes Section -- */
+    .about-us {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .about-us-text {
+        font-size: 16px;
+        }
+}
+
+/*----------------------------------------- Themes Section -- */
 
 .themes {
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: 30px;
     color: #000;
+}
+
+.themes h4 {
+    font-size: 30px;
 }
 
 .text-align-center {
@@ -241,39 +265,75 @@ body {
 @media (max-width: 991px) {
 
     .themes {
-        margin: 0 15px 20px 15px;
-        
+        margin: 0 15px 20px 15px; 
     }
 
-    .themes li {
-        font-size: 20px;
-    }
+   .themes h4 {
+    padding-top: 20px;
+   }
 }
 
 /* Below Medium Screens */
 @media (max-width: 767px) {
 
     .themes {
-        margin: 0 15px 20px 15px;
+        margin: 20px 15px 20px 15px;
         
     }
 
     .themes li {
         font-size: 20px;
     }
+
+    .home-bg {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
 }
 
 /* Below Small Screens */
-@media (max-width: 575px), (max-height: 575px) {}
+@media (max-width: 575px), (max-height: 575px) {
 
-/*---------------------------------------------- Pricing Section -- */
+    .themes {
+        margin: 0;
+        font-size: 30px;
+    }
 
+    .themes li {
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .themes h4 {
+        font-size: 20px;
+    }
+
+    .home-bg {
+        margin-bottom: 20px;
+    }
+
+    .themes-heading {
+        margin-bottom: 10px;
+    }
+
+    .themes-text {
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: 18px;
+        text-align: center;
+        }
+}
+
+/*----------------------------------------- Pricing Section -- */
+
+/* Page */
 .pricing {
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 100px;
 }
 
+/* Header */
 .pricing-heading {
     display: inline-block;
     color: #000;
@@ -283,28 +343,23 @@ body {
     text-align: center;
 }
 
+/* Header Icon */
 .pricing-heading i {
     margin-right: 20px;
 }
 
-.gold {
-    padding-bottom: 20px;
-}
+/* -------------------- Gold Package*/
 
 #gold {
     background-color: gold;
     color: #000 ;
     padding: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
     border: solid 1px;
 }
 
-#gold p {
-    background-color: gold;
-}
-
-.silver {
-    padding-bottom: 20px;
-}
+/* --------------- Silver Package*/
 
 #silver {
     background-color: silver;
@@ -315,28 +370,21 @@ body {
     border: solid 1px;
 }
 
-#silver p {
-    background-color: silver;
-}
-
-.bronze {
-    padding-bottom: 20px;
-}
+/* --------------- Bronze Package*/
 
 #bronze {
     background-color: rgb(163, 73, 13);
     color: #fff;
     padding: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
     border: solid 1px #000;
 }
 
-#bronze p {
-    background-color: rgb(163, 73, 13);
-}
-
+/*List Items - All Packages*/
 .list-group-item::before {
     content: "●";
-    margin-right: 0.75rem;
+    margin-right: 12px;
 }
 
 /* Below Large Screens */
@@ -348,8 +396,20 @@ body {
         margin-bottom: 50px;
     }
 
+    #gold {
+        margin: 10px;
+        min-width: 500px;
+        max-width: 900px;
+    }
+
     #silver {
-        margin: 5px 0;
+        margin: 10px;
+        min-width: 500px;
+    }
+
+    #bronze {
+        margin: 10px;
+        min-width: 500px;
     }
 }
 
@@ -362,15 +422,53 @@ body {
         margin-bottom: 50px;
     }
 
-    #silver {
-        margin: 5px 0;
+    #gold {
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
+
+    #silver {
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    #bronze {
+        padding: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    
 }
 
 /* Below Small Screens */
-@media (max-width: 575px), (max-height: 575px) {}
+@media (max-width: 575px), (max-height: 575px) {
 
-/*---------------------------------------------- Gallery -- */
+    #gold {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #silver {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #bronze {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}
+
+/*-------------------------------------------------------- Gallery Page-- */
+
+.gallery-bg {
+    background-color: rgb(255 189 148);
+    color: #08467b;
+    margin-bottom: 140px;
+}
 
 .gallery-page {
     margin-left: 30px;
@@ -402,7 +500,6 @@ body {
 }
 
 .gallery {
-    
     line-height: 30px;
     row-gap: 24px;
     margin-top: 5px;
@@ -421,6 +518,9 @@ body {
     margin:0;
 }
 
+.flip {
+    transform: rotateY(180deg);
+}
 /* Below Large Screens */
 @media (max-width: 991px) {
 
@@ -432,15 +532,11 @@ body {
     }
 
     .gallery h5 {
-        font-size: 30px;
         padding: 20px;
     }
 
     .gallery-text {
-        font-size: 30px;
         text-align: center;
-        margin-bottom: 20px;
-        margin-top: 20px;
     }
 
     .gallery-bg {
@@ -459,36 +555,44 @@ body {
     .gallery-page {
         margin-left: 30px;
         margin-right: 30px;
-        margin-bottom: 0;
-        padding: 20px;
     }
 
     .gallery h5 {
-        font-size: 20px;
-        padding: 20px;
+        font-size: 26px;
     }
 
     .gallery-text {
-        font-size: 20px;
-        text-align: center;
-        margin-bottom: 20px;
-        margin-top: 20px;
+        font-size: 24px;
     }
 
     .gallery-bg {
         margin-bottom: 60px;
     }
 
-    .theme-name{
-        margin-top: 10px;
-        margin-bottom: 5px;
-    }
 }
 
 /* Below Small Screens */
-@media (max-width: 575px), (max-height: 575px) {}
+@media (max-width: 575px), (max-height: 575px) {
 
-/*---------------------------------------------- Contact Us Form -- */
+    .gallery-page {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .gallery h5 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+/*-------------------------------------------------------- Contact Us Page -- */
+
+.contact-bg {
+    background-color: rgb(255 166 221);
+    color: #000;
+    margin-bottom: 70px;
+}
 
 .contact-page {
     margin-left: 30px;
@@ -498,23 +602,16 @@ body {
 .contact-heading {
     display: inline-block;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     margin: 30px;
 }
 
-.contact-heading h3 {
-    color: #000;
-    text-align: center;
-}
-
 .contact-heading p {
-    color: #000;
     font-weight: 500;
     font-size: 24px;
 }
 
-.font-size-24 {
-    color: #000;
+.contact-text {
     font-size: 24px;
 }
 
@@ -526,13 +623,13 @@ body {
 /* Below Large Screens */
 @media (max-width: 991px) {
 
-    .font-size-24 {
+    .contact-text {
         font-size: 20px;
         text-align: center;
         margin-bottom: 10px;
     }
 
-    .font-size-24 li {
+    .contact-text li {
         text-align: left;
     }
 
@@ -554,32 +651,21 @@ body {
 /* Below Medium Screens */
 @media (max-width: 767px) {
 
-    .font-size-24 {
-        font-size: 20px;
-        text-align: center;
+    .contact-heading {
         margin-bottom: 10px;
     }
 
-    .font-size-24 li {
-        text-align: left;
-    }
-
-    .contact-heading {
-        margin-bottom: 20px;
-    }
-
-    .contact-page {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .contact-bg {
-        margin-bottom: 100px;
-    }
 }
 
 /* Below Small Screens */
-@media (max-width: 575px), (max-height: 575px) {}
+@media (max-width: 575px), (max-height: 575px) {
+
+    .form {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+}
 
 /*---------------------------------------------- Footer -- */
 
@@ -618,12 +704,3 @@ footer nav ul {
 .email {
     color: #fff;
 }
-
-/* Below Large Screens */
-@media (max-width: 991px) {}
-
-/* Below Medium Screens */
-@media (max-width: 767px) {}
-
-/* Below Small Screens */
-@media (max-width: 575px), (max-height: 575px) {}
