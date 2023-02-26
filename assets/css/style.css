@@ -190,10 +190,11 @@ body {
 }
 
 /*Paragraph - text only*/
-#about-us-text {
+.about-us-text {
     color: #000;
     font-size: 30px;
     margin: 0;
+    text-align: justify;
 }
 
 /* Below Large Screens */
@@ -205,7 +206,6 @@ body {
     
 .about-us-text {
     font-size: 26px;
-    text-align: justify;
     }
 }
 
@@ -241,6 +241,10 @@ body {
     margin-bottom: 20px;
     font-size: 30px;
     color: #000;
+}
+
+.themes p {
+    text-align: left;
 }
 
 .themes h4 {
@@ -381,6 +385,16 @@ body {
     border: solid 1px #000;
 }
 
+.top-of-page {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 24px;
+}
+
+.top-page {
+    color: #000;
+}
+
 /*List Items - All Packages*/
 .list-group-item::before {
     content: "●";
@@ -426,20 +440,26 @@ body {
         padding: 20px;
         margin-left: 10px;
         margin-right: 10px;
+        min-width: 360px;
     }
 
     #silver {
         padding: 20px;
         margin-left: 10px;
         margin-right: 10px;
+        min-width: 360px;
     }
 
     #bronze {
         padding: 20px;
         margin-left: 10px;
         margin-right: 10px;
+        min-width: 360px;
     }
     
+    .top-of-page {
+        font-size: 16px;
+    }
 }
 
 /* Below Small Screens */
@@ -448,16 +468,19 @@ body {
     #gold {
         margin-left: 0;
         margin-right: 0;
+        min-width: 290px;
     }
 
     #silver {
         margin-left: 0;
         margin-right: 0;
+        min-width: 290px;
     }
 
     #bronze {
         margin-left: 0;
         margin-right: 0;
+        min-width: 290px;
     }
     
 }
@@ -666,6 +689,7 @@ body {
     }
 
 }
+
 
 /*---------------------------------------------- Footer -- */
 

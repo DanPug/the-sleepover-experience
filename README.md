@@ -1,12 +1,12 @@
 # The Sleepover Experience
 
-View the live website here
+[View the live website here](https://danpug.github.io/the-sleepover-experience/)
 
 The Sleepover Experience is a site for my business that will help to promote what we do.
 The site will be targeted toward potential customers who are looking to hire sleepover tents for children in the Neath Port Talbot area.
 The Sleepover Experience will be useful for potential customers to see what themes we have available, the prices and to make a booking.
 
-<screen images - phone, tablet, laptop, desktop> https://ui.dev/amiresponsive
+![Am I Resonsive Image](/assets/images/screenshot-home.webp)
 
 
 ## User Experience (UX)
@@ -35,9 +35,11 @@ The Sleepover Experience will be useful for potential customers to see what them
 
 ## Wireframes
 
-	- [Home page wireframe](/workspace/the-sleepover-experience/assets/images/Wireframes/Index.png)
-	- [Gallery page wireframe](/workspace/the-sleepover-experience/assets/images/Wireframes/Gallery.png)
-	- [Contact Us page wireframe](/workspace/the-sleepover-experience/assets/images/Wireframes/Contact.png)
+[Home page wireframe](/workspace/the-sleepover-experience/assets/images/Wireframes/Home.webp)
+
+[Gallery page wireframe](/workspace/the-sleepover-experience/assets/images/Wireframes/Gallery.webp)
+
+[Contact Us page wireframe](/workspace/the-sleepover-experience/assets/images/Wireframes/Contact-us.webp)
 
 
 ## Features
@@ -50,7 +52,8 @@ The Sleepover Experience will be useful for potential customers to see what them
 	  revert back to the previous page via the 'back' button.
 		- Each page includes a background colour that matches the navbar icon colour for that page to allow the user to see 
 	  exactly which page they are currently on
-<img nav bar>
+
+[Navigation Bar](/assets/images/screenshot-nav-bar.webp)
 
 
 ## Technologies Used
@@ -86,53 +89,75 @@ The Sleepover Experience will be useful for potential customers to see what them
 
 The W3C Markup Validator and W3C  Validator were used to validate every page of the project to ensure there were no sytax errors.
 
-	- [W3C Markup Validator Results]()
-	- [W3C CSS Validator Results]() 
+[W3C Markup Validator Results](/assets/images/Screenshot-W3C-Markup-Validator.webp)
+
+[W3C CSS Validator Results](/assets/images/Screenshot-W3C-CSS-Validator.webp)
+
 
 ### Testing User Stories from User Experience Section
 
-	1. I want to learn a bit about the business.
+1. I want to understand the main purpose of the site and learn a bit about the business.
 
-		a.
+		- Upon entering the website users are greeted with a clean and easily readable navigation bar, which shows the pages available and also has a sub-menu to easily find the section of 	the home page you require. Below this is an image depicting the brand and a tagline of what the business does and where it operates.
 
-	2. I want to be able to see what themes are currently available.
+		- The user has two options on the home page, click on the section link in the navigation bar or scroll down to the section.
 
-		a.
+		- The first section the user will come to by scrolling is the 'About Us'. The first sub-menu link is also 'About Us'. 
 
-	3. I want to find out what themes are coming next.
+2. I want to be able to see what themes are currently available.
 
-		a.
+		- The home page has three sections, the second of which is 'Current Themes'. To reach the Current Themes section the user can either scroll or use the sub-menu link under 'Home on the navigation bar for faster access.
 
-	4. I want to be able to find out what is included with the hire.
+		- The 'Current Themes' section has a link to take the user to the 'Gallery' page so they can see photos of the themes.
 
-		a.
+3. I want to find out what themes are coming next.
 
-	5. I want to be able to see what the different prices are.
+		- The sub-menu of the Home link on the navigation bar shows that the 'Coming Soon' section is within the 'Current Themes' section. Clicking on 'Current Themes' will take you directly to that section. Alternatively the user can scroll down the page.
 
-		a.
+4. I want to be able to see what the different prices are.
 
-	6. I want to be able to see photos of setups in real life.
+		- The home page has three sections, the third of which is 'Pricing'. To reach the Pricing section the user can either scroll or use the sub-menu link under 'Home on the navigation bar for faster access.
 
-		a.
+		- The price packages are coloured to quickly show the price level.
 
-	7. I want to be able to enquire about availability.
+5. I want to be able to find out what is included with the hire.
 
-		a.
+		- The sub-menu of the Home link on the navigation bar shows that the 'What's Included' section is within the 'Pricing' section. Clicking on 'Pricing' will take you directly to that section. Alternatively the user can scroll down the page.
 
-	8. I want to find links to social media pages.
+		- As this is the last section on the page, a link is provided to return to the top of the page so that the user does not need to scroll.
 
-		a.
+6. I want to be able to see photos of setups in real life.
+
+		- Upon entering the website users are greeted with a clean and easily readable navigation bar, which shows the pages available, including 'Gallery'.
+
+		- Users can see the list of themes within the 'Current Themes' section of the home page. Underneath the list of themes is a link which will take you directly to the Gallery.
+
+		- Once the user has scrolled to the bottom of the page they will see a 'return to top' link so that they do not need to scroll back up.
+
+7. I want to be able to enquire about availability.
+
+		- Upon entering the website users are greeted with a clean and easily readable navigation bar, which shows the pages available, including 'Contact Us'.
+
+		- Users can fill in a pre-designed form where the essential information is a requirement before submitting.
+		
+		- Guidance is provided for users so that they know what information to include in the form.
+
+		- Links are provided in the footer for WhatsApp and Email. the links have the contact details filled in for the user.
+
+8. I want to find links to social media pages.
+
+		- Social media links are provided clearly in the footer of each page.
 
 ### Further Testing
 
-	- The website was tested on Google Chrome, Microsoft Edge and Firefox browsers.
+	- The website was tested on Google Chrome, Microsoft Edge, Brave and Firefox browsers.
 	- The website was viewed on a Desktop and Samsung S20 mobile phone. It was also viewed on a variety of devices by using the Chrome developer tools.
 	- Testing was done to ensure that all pages were linking correctly.
 	- Family members were asked to review the website to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
-
+	- There are no known bugs
 
 ## Deployment
 
@@ -142,9 +167,10 @@ The project was deployed to GitHub pages using the following steps:
 
 1. Log in to GitHub and locate the GitHUb repository.
 2. At the top of the repository, locate the 'Settings' button on the menu.
-3. Scroll down Setting page until you locate the 'GitHub Pages' section.
-4. Under 'Source', click the dropdown called 'None' and select 'Master Branch.
-5. Scroll back down through the page to locate the now published site link in the 'GitHub Pages' section.
+3. Locate the 'Pages' tab on the left hand side menu.
+4. Under 'Branch', click the dropdown called 'None' and select 'Main'.
+5. Click 'Save'.
+5. Refresh the page if it doesn't do it automatically and at the top of the page you will see 'Your site is live at https://...'.
 
 ### Forking the Repository
 
