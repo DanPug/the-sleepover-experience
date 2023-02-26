@@ -1,89 +1,186 @@
 # The Sleepover Experience
 
+View the live website here
+
 The Sleepover Experience is a site for my business that will help to promote what we do.
 The site will be targeted toward potential customers who are looking to hire sleepover tents for children in the Neath Port Talbot area.
 The Sleepover Experience will be useful for potential customers to see what themes we have available, the prices and to make a booking.
 
 <screen images - phone, tablet, laptop, desktop> https://ui.dev/amiresponsive
 
+
+## User Experience (UX)
+
+- User Stories
+	- Visitor Goals
+		1. I want to learn a bit about the business.
+		2. I want to be able to see what themes are currently available.
+		3. I want to find out what themes are coming next.
+		4. I want to be able to find out what is included with the hire.
+		5. I want to be able to see what the different prices are.
+		6. I want to be able to see photos of setups in real life.
+		7. I want to be able to enquire about availability.
+		8. I want to find links to social media pages
+
+- Design
+	- Colour Scheme	
+		- The main colours used are blue, orange and pink. These colours were chosen as they tie-in with the pre-existing logo and therefore helps to reinforce the brand.
+
+	- Typography
+		- The Roboto Slap font matches with the pre-exisiting logo and therefore helps reinforce the brand. Sans-serif is used as a backup font in case for some reason the font doesn't get imported into the website properly.
+
+	- Imagery
+		- The landing page image is an amended version of the business logo. It is bright and colourful and will catch the user's attention. It also helps to reinforce the brand.
+
+
+## Wireframes
+
+	- [Home page wireframe](/workspace/the-sleepover-experience/assets/images/Wireframes/Index.png)
+	- [Gallery page wireframe](/workspace/the-sleepover-experience/assets/images/Wireframes/Gallery.png)
+	- [Contact Us page wireframe](/workspace/the-sleepover-experience/assets/images/Wireframes/Contact.png)
+
+
+## Features
+
+	- Responsive on all device sizes
+	- Navigation Bar
+		- Featured on all three pages, the fully responsive navigation bar includes links to the Home page (About Us, Themes & pricing),
+	  Gallery and Contact Us pages and is identical in each page to allow for easy navigation.
+		- This section will allow the user to easily navigate from page to page across all devices without having to 
+	  revert back to the previous page via the 'back' button.
+		- Each page includes a background colour that matches the navbar icon colour for that page to allow the user to see 
+	  exactly which page they are currently on
+<img nav bar>
+
+
+## Technologies Used
+
+### Languages Used
+
+	- HTML5
+	- CSS3
+
+### Frameworks, Libraries and Programs Used
+
+	- Bootstrap 5.2.3 
+		- Bootstrap was used to assist with the layout and responsiveness of the website.
+	- Google Fonts 
+		- Google fonts were used to import the 'Robota Slab' font into the style.css file which is used on all pages of the website.
+	- Font Awesome 
+		- Font Awesome was used to add icons to all pages of the website.
+	- JQuery
+		- JQuery came with Bootstrap to make the navbar responsive.
+	- Git
+		- Git was used for version control by utilizing the Gitpod terminal to commit to Git and push to GitHub.
+	- Github
+		- GitHub is used to store the project's code after being pushed from Git.
+	- Balsamiq 
+		- Balsamiq was used to create the wireframes during the design process.
+	- Free Convert 
+		- Free Convert was used to optimise the images for the website by converting them into WEBP.
+	- Canva 
+		- Canva was used to create the landing page image for the website and is where the original logo was designed.
+
+
+## Testing
+
+The W3C Markup Validator and W3C  Validator were used to validate every page of the project to ensure there were no sytax errors.
+
+	- [W3C Markup Validator Results]()
+	- [W3C CSS Validator Results]() 
+
+### Testing User Stories from User Experience Section
+
+	1. I want to learn a bit about the business.
+
+		a.
+
+	2. I want to be able to see what themes are currently available.
+
+		a.
+
+	3. I want to find out what themes are coming next.
+
+		a.
+
+	4. I want to be able to find out what is included with the hire.
+
+		a.
+
+	5. I want to be able to see what the different prices are.
+
+		a.
+
+	6. I want to be able to see photos of setups in real life.
+
+		a.
+
+	7. I want to be able to enquire about availability.
+
+		a.
+
+	8. I want to find links to social media pages.
+
+		a.
+
+### Further Testing
+
+	- The website was tested on Google Chrome, Microsoft Edge and Firefox browsers.
+	- The website was viewed on a Desktop and Samsung S20 mobile phone. It was also viewed on a variety of devices by using the Chrome developer tools.
+	- Testing was done to ensure that all pages were linking correctly.
+	- Family members were asked to review the website to point out any bugs and/or user experience issues.
+
+### Known Bugs
+
+
+
 ## Deployment
 
 ### GitHub Pages
 
-I used the following steps to deploy the project.
+The project was deployed to GitHub pages using the following steps:
 
-1. Log in to GitHub and navigate to the repository.
-2. On GitHub repository page, click on settings tab.
-3. Scroll down to Pages tab on the menu on the left hand side.
-4. Under Source, click the branch drop down menu and select main.
-5. Click Save.
-6. The page will update and show the text "Your site is published at https://
+1. Log in to GitHub and locate the GitHUb repository.
+2. At the top of the repository, locate the 'Settings' button on the menu.
+3. Scroll down Setting page until you locate the 'GitHub Pages' section.
+4. Under 'Source', click the dropdown called 'None' and select 'Master Branch.
+5. Scroll back down through the page to locate the now published site link in the 'GitHub Pages' section.
 
 ### Forking the Repository
 
-To fork the repository in order to make a copy so as to view or make changes to the site without affecting the original 
-repository, the following steps are to be used.
+By forking the GitHub repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps:
 
-1. Log in to GitHub and navigate to the repository.
-2. On the right hand side, above the setting tab, click the 'Fork' button.
-3. There will now be a copy of the original repository in your GitHub account.
+1. Log in to GitHub and locate the GitHub repository.
+2. At the top of the repository, locate the 'Fork' button.
+3. You should now have a copy of the original repository in your GitHub account.
 
-## Testing
+### Making a Local Clone
 
-
-## Validator Testing
-
-* HTML
-	* 
-* CSS
-	* 
-
-## Unfixed Bugs
-
-Navbar toggle button not working
-
-## Features
+1. Log into GitHub and locate the GitHub repository.
+2. Under the repository name, click 'Clone or download'.
+3. To clone the repository using HTTPS, under 'Clone with HTTPS' copy the link.
+4. Open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type 'Git Clone' and the paste the URL you copied in step 3.
+7. Press 'Enter', your local clone will be created.
 
 
-### Existing Features
+## Credit
 
-* Navigation Bar
-	* Featured on all three pages, the fully responsive navigation bar includes links to the Home page (About Us, Themes & pricing),
-	  Gallery and Contact Us pages and is identical in each page to allow for easy navigation.
-	* This section will allow the user to easily navigate from page to page across all devices without having to 
-	  revert back to the previous page via the 'back' button.
-	* Each page includes a background colour that matches the navbar icon colour for that page to allow the user to see 
-	  exactly which page they are currently on
-<img nav bar>
+### Code
 
-* The landing page colours
-	* This section introduces the user to The Sleepover Experience with an eye catching photo to grab their attention.
-<img hero img>
+	- Bootstrap 5: Bootstrap library used throughout the project, mainly to make the site responsiveby using the Bootstrap grid system.
 
+### Content
 
-## UX
+	- All content was written by the developer.
+
+### Media
+
+	- All media was created by the developer.
 
 
-### Site Goals
+## Acknowledgments
 
-
-### User Stories
-
-As a shopper:
-	* I want to be able to see what themes are currently available.
-	* I want to be able to find out what is included with the hire.
-	* I want to be able to see what the different prices are.
-	* I want to be able to see photos of setups in real life.
-	* I want to be able to get in touch to ask questions.
-	* I want to be able to enquire about availability.
-	* I want to find out what themes are coming next.
-	
-As the site Administrator:
-	* I want to be able to add new themes.
-	* I want to edit existing prices.
-	* I want to be able to add new photos.
-	* I want to engage with potential customers
-
-### Wireframes
-
-To see all wireframes created in the UX stage <Click Here!>
+	- My Mentor for continuous helpful feedback.
+	- W3 Schools for their helpful tutorials
