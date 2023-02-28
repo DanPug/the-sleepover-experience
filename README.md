@@ -7,6 +7,9 @@ The site will be targeted toward potential customers who are looking to hire sle
 The Sleepover Experience will be useful for potential customers to see what themes we have available, the prices and to make a booking.
 
 ![Am I Resonsive Image](/assets/images/screenshot-home.webp)
+[View Gallery Page](/assets/images/screenshot-gallery.webp)
+
+[View Contact Us Page](/assets/images/screenshot-contact-us.webp)
 
 <br/>
 
@@ -156,6 +159,9 @@ The W3C Markup Validator and W3C  Validator were used to validate every page of 
 ### Further Testing
 
 - The website was tested on Google Chrome, Microsoft Edge, Brave and Firefox browsers.
+	- [Home Page Lighthouse Results](/assets/images/home-lighthouse-result.webp)
+	- [Gallery Page Lighthouse Results](/assets/images/gallery-lighthouse-result.webp)
+	- [Contact Us Page Lighthouse Results](/assets/images/contact-us-lighthouse-result.webp)
 - The website was viewed on a Desktop and Samsung S20 mobile phone. It was also viewed on a variety of devices by using the Chrome developer tools.
 - Testing was done to ensure that all pages were linking correctly.
 - Family members were asked to review the website to point out any bugs and/or user experience issues.
